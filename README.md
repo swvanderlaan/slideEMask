@@ -29,7 +29,7 @@ You can add **slideEMask** to your path by running the code below to make a symb
 
 ```
 mkdir -pv ~/bin/ && \
-	ln -s -f -v ~/git/slideNormalize/binaries/slideNormalize[choose_version] ~/bin/slideEMask
+	ln -s -f -v ~/git/slideEMask/binaries/slideEMask[choose_version] ~/bin/slideEMask
 ```
 
 -----------------------------------------------
