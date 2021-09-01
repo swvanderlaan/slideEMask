@@ -16,11 +16,20 @@ These values are then averaged in a 4x4 pixel neighborhood to smoothen the image
 #### Compiling
 **slideEMask** was written in C++ and needs to be compiled to run. CentOS 7 and macOS (10.14.5+) precompiled binaries can be found in the `binaries` directory.
 
+#### Binaries
+
+For your convenience, we have created precompiled binaries for CentOS7+ and macOS Mojave (10.14.5+) using `g++`. These are available in the `binaries` folder:
+
+- `slideNormalize_macOS_Mojave10145`
+- `slideNormalize_macOS_BigSur1152`
+- `slideNormalize_centos7`
+
+
 -----------------------------------------------
 #### Licence
 The MIT License (MIT): <http://opensource.org/licenses/MIT>.
 
 **slideEMask** uses the CImg library, released under the CeCILL license.
 
-Copyright (c) 2014-2019, [Tim Bezemer](https://github.com/tbezemer) & [Sander W. van der Laan](https://github.com/swvanderlaan), UMC Utrecht, Utrecht, the Netherlands.
+Copyright (c) 2014-2021, [Tim Bezemer](https://github.com/tbezemer) & [Sander W. van der Laan](https://github.com/swvanderlaan), UMC Utrecht, Utrecht, the Netherlands.
 
