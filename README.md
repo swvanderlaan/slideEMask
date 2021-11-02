@@ -20,9 +20,10 @@ These values are then averaged in a 4x4 pixel neighborhood to smoothen the image
 
 For your convenience, we have created precompiled binaries for CentOS7+ and macOS Mojave (10.14.5+) using `g++`. These are available in the `binaries` folder:
 
-- `slideNormalize_macOS_Mojave10145`
-- `slideNormalize_macOS_BigSur1152`
-- `slideNormalize_centos7`
+- `slideEMask_macOS_Mojave10145`
+- `slideEMask_macOS_BigSur1152`
+- `slideEMask_macOS_Monterey1201`
+- `slideEMask_centos7`
 
 #### slideEMask in your path
 You can add **slideEMask** to your path by running the code below to make a symbolic link, while making sure to choose the binary appropriate for you system (macOS or CentOS).
