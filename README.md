@@ -33,6 +33,41 @@ mkdir -pv ~/bin/ && \
 	ln -s -f -v ~/git/slideEMask/binaries/slideEMask[choose_version] ~/bin/slideEMask
 ```
 
+#### Example usages
+
+**Argument(s):**
+- **`-f`,`--file` <string>**
+  - The filename of the TIF file to process. (Required)
+
+**Optional argument(s):**
+- **`-l`,`--layer` <integer>**
+The layer number of the image to use for processing. (Optional, default: -1)
+- `-c`,`--cellprofiler`
+  - Whether to prepare the image for CellProfiler (save as BMP instead of PNG, and prepend "ENTROPY_" to the filename). Default: false
+- `-t`,`--threshold` <integer>
+  - The entropy gray value threshold for masking, a number between 0 and 255. (Optional, default: -1)
+
+
+**1. Basic Usage:**
+   ```bash
+   ./slideEMask -f input_image.tif
+   ```
+   This will process the TIFF image file `input_image.tif` without specifying a layer or a threshold.
+
+**2. Specify Layer and Threshold:**
+   ```bash
+   ./slideEMask -f input_image.tif -l 3 -t 200
+   ```
+   This will process layer 3 of the TIFF image `input_image.tif` with an entropy threshold of 200.
+
+**3. Prepare Image for CellProfiler:**
+   ```bash
+   ./slideEMask -f input_image.tif -c
+   ```
+   This will process the TIFF image `input_image.tif`, save it as a BMP file with the filename prefixed by `ENTROPY_`, and set the default threshold.
+
+Remember to replace `input_image.tif` with the actual filename of the TIFF image you want to process. Adjust the layer number and threshold as needed based on your specific requirements.
+
 -----------------------------------------------
 #### Licence
 The MIT License (MIT): <http://opensource.org/licenses/MIT>.
