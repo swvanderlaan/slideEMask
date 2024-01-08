@@ -74,5 +74,5 @@ The MIT License (MIT): <http://opensource.org/licenses/MIT>.
 
 **slideEMask** uses the CImg library, released under the CeCILL license.
 
-Copyright (c) 2014-2021, [Tim Bezemer](https://github.com/tbezemer) & [Sander W. van der Laan](https://github.com/swvanderlaan), UMC Utrecht, Utrecht, the Netherlands.
+Copyright (c) 2014-2024, [Tim Bezemer](https://github.com/tbezemer) & [Sander W. van der Laan](https://github.com/swvanderlaan), UMC Utrecht, Utrecht, the Netherlands.
 
